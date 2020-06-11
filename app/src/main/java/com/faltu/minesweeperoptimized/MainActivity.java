@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                         else{
                             buttonArray[finalI][finalJ].setBackgroundColor(Color.RED);
                             AlertDialog.Builder alertDialogBuilder= new AlertDialog.Builder(MainActivity.this);
-                            alertDialogBuilder.setTitle("You Lost the game /*_*/");
+                            alertDialogBuilder.setTitle("You Lost the game /*_*/\nYour Score is"+Integer.toString(score_count));
                             alertDialogBuilder.setIcon(R.drawable.ic_launcher_foreground);
                             alertDialogBuilder.setMessage("Do you want to play again!!");
                             alertDialogBuilder.setCancelable(false);

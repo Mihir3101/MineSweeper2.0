@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 final int finalI = i;
                 final int finalJ = j;
 
+                //On Long Click Button is Flaged
                 /*buttonArray[i][j].setOnLongClickListener(new View.OnLongClickListener() {
                     @Override
                     public boolean onLongClick(View v) {

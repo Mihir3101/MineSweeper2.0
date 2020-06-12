@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MineSweeperOptimized</string>
+    <string name="app_name">MineSweeper2.0</string>
+    <string name="add_icon_example"><image src="ic_restart.xml"></image>Restart</string>
 </resources>

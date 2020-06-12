@@ -5,39 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="2dp">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000000">
    <!-- <GridView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:numColumns="5"
         android:layout_gravity="center_vertical"/>-->
-    <TextView
-        android:id="@+id/score"
-        android:layout_margin="5dp"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Score : 0"
-        android:textSize="25dp"/>
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:layout_weight="4"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:id="@+id/reset"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:layout_weight="4"
+            android:background="@color/colorPrimary"/>
+            <ImageButton
+                android:id="@+id/addFlag"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"/>
+    </LinearLayout>
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_gravity="center"
-        android:columnCount="5"
+        android:columnCount="8"
         android:id="@+id/rootLayout"
-        android:layout_columnWeight="5"
-        android:layout_rowWeight="5"
-        android:padding="5dp"
-        >
+        android:padding="4dp"
+        android:background="@color/colorAccent">
 
     </GridLayout>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Reset"
-        android:id="@+id/reset"
-        android:layout_marginBottom="25dp"
-        android:layout_gravity="center"/>
+    </LinearLayout>
 </GridLayout>

@@ -1,11 +1,11 @@
 # MineSweeper2.0
-## IT150 Mini Project
-## Mine-Sweeper Game
+### IT150 Mini Project
+### Mine-Sweeper Game
 ---
-# **MineSweeper App User Manual**
+## **MineSweeper App User Manual**
 ---
 
-## Basically This app is a Game app called "MineSweeper". In this game one has to brainstorm and locate the mines on the board.
+#### Basically This app is a Game app called "MineSweeper". In this game one has to brainstorm and locate the mines on the board.
 
 -How to Play & Rules?
 * The Game consists of a board with a 12x8 grid.
@@ -22,4 +22,4 @@
 
 
 
-## ThankYou for Using this App.
+### ThankYou for Using this App.
